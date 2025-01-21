@@ -1,0 +1,27 @@
+### Admin Module
+
+@basepath = http://localhost:8000
+ 
+###Login
+POST {{basepath}}/login
+ 
+###Logout
+POST {{basepath}}/logout
+ 
+###Sign-Up for Admins
+GET {{basepath}}/signup/admins
+ 
+###Sign-Up for Employees
+GET {{basepath}}/signup/employee
+ 
+###Sign-Up for Managers
+GET {{basepath}}/signup/Managers
+ 
+###Change Password
+POST {{basepath}}/change-password
+ 
+###Forgot Password
+POST {{basepath}}/forgot-password
+ 
+###Session Validation
+GET {{basepath}}/validate-session

@@ -1,0 +1,10 @@
+@basePath=http://localhost:8000
+
+### Manager Dashboard- Average Response time of employees
+GET {{basePath}}/manager/managerid/dashboard/perfomrmance
+
+### Manager Dashboard- Ticket status(open, in-progress, closed) of employees
+GET {{basePath}}/manager/managerid/dashboard/ticket-status
+
+### Combined Endpoint for All Manager Dashboard Data
+GET {{basePath}}/manager/dashboard

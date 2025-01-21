@@ -1,0 +1,28 @@
+### Customer Module
+@baseUrl = http://localhost:8000
+
+### SignUp
+
+POST {{ baseUrl }}/customer/signup
+
+### Login
+POST {{ baseUrl }}/login
+
+### Subcription Plan
+GET {{ baseUrl }}/customer/subcription
+
+### Domain
+GET {{ baseUrl }}/customer/Domain
+
+### Details of Domain
+GET {{ baseUrl }}/customer/Domain/details
+
+### Purchase a Domain
+POST {{ baseUrl }}/customer/customer_name/purchase
+
+
+### Create a ticket
+POST {{ baseUrl }}/customer_name/createTicket
+
+### Notification
+GET {{ baseUrl }}/customer_name/notification

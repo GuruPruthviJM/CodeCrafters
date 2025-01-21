@@ -1,0 +1,22 @@
+@baseUrl = http://localhost:8000/api/
+ 
+### Fetch employee specific dashboard data
+GET {{baseUrl}}/dashboard/employee/employeeId
+ 
+### Get tickets assigned to the employee
+GET {{baseUrl}}/tickets/employee/employeeId
+ 
+### Fetch performance metrics for representatives
+GET {{baseUrl}}/representatives/performance
+ 
+### Get outage map data for visualization
+GET {{baseUrl}}/dashboard/outage-map
+ 
+### Fetch all outages
+GET {{baseUrl}}/outages
+ 
+### Get outages by location
+PUT  {{baseUrl}}/outages/location/locationId
+ 
+### Update or delete a specific outage
+DELETE  {{baseUrl}}/outages/outageId

@@ -1,0 +1,36 @@
+### Authorization module
+
+@basepath=http://localHost:8000/api
+ 
+### Signup For Admins, Employees and Managers
+GET {{basepath}}/signup
+ 
+### List for all Roles
+GET {{basepath}}/roles
+ 
+### Update for all Roles
+POST  {{basepath}}/roles
+ 
+### Controling Employee Roles
+GET {{basepath}}/roles/employees/employee-name
+ 
+### Updating Employee Roles
+POST  {{basepath}}/roles/employees/employee-name
+ 
+### Controling Manager Roles
+GET {{basepath}}/roles/managers/manager-name
+ 
+### Updating Role of Managers
+POST  {{basepath}}/roles/managers/manager-name
+ 
+### Display list of Employees
+GET  {{basepath}}/employees
+ 
+### Update and Display list of Employees
+POST {{basepath}}/employees
+ 
+### Display List of Managers
+GET  {{basepath}}/managers
+ 
+### Update and Display List of Managers
+POST {{basepath}}/managers
